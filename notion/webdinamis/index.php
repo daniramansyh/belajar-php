@@ -23,21 +23,21 @@
 				$page = $_GET['page'];
 		
 				switch ($page) {
-					case 'home':
-						include "halaman/home.php";
+					case 'home' :
+						include "home.php";
 						break;
-					case 'tentang':
-						include "halaman/tentang.php";
+					case 'tentang' :
+						include "tentang.php";
 						break;
-					case 'kontak':
-						include "halaman/kontak.php";
+					case 'kontak' :
+						include "kontak.php";
 						break;			
-					default:
+					default :
 						echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";
 						break;
 				}
 			}else{
-				include "halaman/home.php";
+				include "home.php";
 			}
 		
 			?>
