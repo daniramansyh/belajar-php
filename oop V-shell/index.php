@@ -1,23 +1,21 @@
 <?php
 class Shell {
-    public $nama = 'Kucing';
-    public $kaki;
-    public $mamalia;
-    public $jenis_makanan;
-
-    public function __construct() {
-        $nama = $this->nama;
+    public
+        $harga,
+        $jumlah,
+        $jenis,
+        $ppn;
+    public function __construct($harga,$jumlah,$jenis) {
+        $this->harga = $harga;
+        $this->jumlah = $jumlah;
+        $this->jenis = $jenis;
+        $this->ppn = ($harga * $jumlah) * (10/100);
     }
-
-    public function showNama() {
-        return $this->nama;
-    }
-
-    public function berjalan() {
-        return true;
+    public function run() {
+        echo $this->harga . " " . $this->jumlah. " " . $this->jenis . " " . $this->ppn;
     }
 }
 
-$kucing = new Hewan;
-echo "Memanggil properti/atribut: " . $kucing->nama . "<br> Memanggil Method/fungsi: " . $kucing->__construct();
+$input = new Shell(10,3,"power");
+$input->run();
 ?>
