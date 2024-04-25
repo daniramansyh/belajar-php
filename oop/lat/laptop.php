@@ -1,5 +1,5 @@
 <?php
-class Laptop{
+class laptop{
     public
         $nama,
         $brand;
@@ -12,4 +12,4 @@ class Laptop{
     }
 }
 $user->show();
-$user = new Laptop("Lala", "Legeg");
+$user = new laptop("Lala", "Legeg");
