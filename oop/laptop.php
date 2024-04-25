@@ -13,4 +13,3 @@ class Laptop{
 }
 $user->show();
 $user = new Laptop("Lala", "Legeg");
-?>
