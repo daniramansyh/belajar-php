@@ -6,11 +6,11 @@ if (isset($_POST['lihat']) && !empty($_POST['jenis']) && !empty($_POST['jumlah']
     class Bensin
     {
         public
-        $jenis,
-        $jumlah,
-        $harga,
-        $uang,
-        $ppn = 0.1;
+            $jenis,
+            $jumlah,
+            $harga,
+            $uang,
+            $ppn = 0.1;
         public function __construct($jenis, $jumlah, $uang)
         {
             $this->uang = $uang;
@@ -46,9 +46,9 @@ if (isset($_POST['lihat']) && !empty($_POST['jenis']) && !empty($_POST['jumlah']
                     -----------------------------------------------<br>
                     Jenis bensin: Shell $this->jenis <br>
                     Jumlah dalam liter: $this->jumlah <br>
-                    Harga asli: Rp.". number_format($this->price, 2, ',', '.') . " <br>
-                    PPN: Rp.". number_format($this->pajak, 2, ',', '.') . " <br>
-                    Total yang harus di bayar: Rp." .number_format($this->total,2,',','.') ." <br>
+                    Harga asli: Rp." . number_format($this->price, 2, ',', '.') . " <br>
+                    PPN: Rp." . number_format($this->pajak, 2, ',', '.') . " <br>
+                    Total yang harus di bayar: Rp." . number_format($this->total, 2, ',', '.') . " <br>
                     Uang anda: Rp." . number_format($this->uang, 2, ',', '.') . " <br>
                     Sisa uang anda: Rp." . number_format($this->sisa, 2, ',', '.') . " <br>
                     -----------------------------------------------<br>
