@@ -21,7 +21,7 @@
                     </div>
                     <div class="col">
                         <label for="bensin" class="form-label fw-semibold">Pilih Jenis Bensin</label>
-                        <select name="jenis" id="bensin" class="form-select mb-3" aria-label="Default select example">
+                        <select name="jenis" id="bensin" class="form-select mb-3" aria-label="Default select example" required>
                             <option selected disabled>Tipe Bahan Bakar</option>
                             <option value="Super">Shell Super</option>
                             <option value="V-Power">Shell V-Power</option>
@@ -31,11 +31,11 @@
                     </div>
                     <div class="col">
                         <label for="jumlah" class="form-label fw-semibold">Masukan Jumlah (liter)</label>
-                        <input type="number" name="jumlah" class="form-control" placeholder="Jumlah Liter">
+                        <input type="number" name="jumlah" class="form-control" placeholder="Jumlah Liter" required>
                     </div>
                     <div class="col">
                         <label for='money' class='form-label fw-semibold'>Masukan Uang (Rupiah)</label>
-                        <input type='number' name='money' class='form-control' placeholder='Uang Rupiah'>
+                        <input type='number' name='money' class='form-control' placeholder='Uang Rupiah' required>
                     </div>
                     <div class="row d-flex justify-content-center align-items-center">
                         <button type="submit" name="lihat" class="btn btn-secondary btn-lg mb-3 mt-3"

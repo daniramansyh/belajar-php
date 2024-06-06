@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Sistem Rental Motor</title>
 </head>
 
 <body>
-    <div class="d-flex flex-column justify-content-center align-items-center bg-secondary bg-opacity-50%"
-        style="height: 100vh;">
+    <div class="d-flex flex-column justify-content-center align-items-center bg-secondary bg-opacity-50%" style="height: 100vh;">
         <div class="container rounded-2 p-5 shadow p-3 border border-white" style="max-width: 750px;">
             <form action="" method="post" class="container bg-body rounded-2 " style="max-width:600px; height: auto;">
                 <div class="row">
@@ -20,8 +18,7 @@
                     </div>
                     <div class="col">
                         <label for="nama" class="form-label fw-semibold">Masukan Nama Pengguna</label>
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama Pengguna"
-                            required>
+                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama Pengguna" required>
                     </div>
                     <div class="col">
                         <label for='waktu' class='form-label fw-semibold'>Masukan Waktu (Hari)</label>
@@ -40,8 +37,7 @@
                         </select>
                     </div>
                     <div class="row d-flex justify-content-center align-items-center">
-                        <button type="submit" name="submit" class="btn btn-secondary btn-lg mb-3 mt-3"
-                            style="width: 276px; margin-left: 12px;">Sewa</button>
+                        <button type="submit" name="submit" class="btn btn-secondary btn-lg mb-3 mt-3" style="width: 276px; margin-left: 12px;">Sewa</button>
                     </div>
                 </div>
             </form>
